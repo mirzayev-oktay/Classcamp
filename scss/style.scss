@@ -1,5 +1,5 @@
 @use "navbar" as *;
-
+@use "hero" as *;
 * {
   margin: 0;
   padding: 0;
@@ -14,4 +14,5 @@
 }
 body {
   background-color: #100e14;
+  color: #ffff;
 }
