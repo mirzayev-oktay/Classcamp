@@ -1,0 +1,35 @@
+.courses {
+  padding: 136px 0;
+  &-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 38px;
+    h1 {
+      font-weight: 400;
+      font-size: 61px;
+      letter-spacing: 2.56px;
+      max-width: 520px;
+      line-height: 83.2px;
+    }
+    p {
+      font-weight: 400;
+      font-size: 26px;
+      letter-spacing: 0.42px;
+      opacity: 0.5;
+      line-height: 37.8px;
+      max-width: 617px;
+    }
+    .courses-cards {
+      display: flex;
+    }
+    .courses-card {
+      background-image: url("images/courses-card1.png");
+      width: 252px;
+      height: 452px;
+      background-position: center;
+      background-size: cover;
+    }
+  }
+}
