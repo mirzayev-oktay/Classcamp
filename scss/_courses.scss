@@ -27,6 +27,7 @@
     }
     .courses-card {
       position: relative;
+
       &-content {
         display: flex;
         flex-direction: column;
@@ -54,5 +55,29 @@
         }
       }
     }
+  }
+}
+@media (max-width: 960px) {
+  .courses {
+    &-cards {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .courses-title {
+      font-size: 45px;
+      line-height: 60px;
+    }
+    .courses-text {
+      font-size: 18px;
+      line-height: 28px;
+    }
+  }
+}
+@media (max-width: 550px) {
+  .courses-cards {
+    width: 100%;
+  }
+  .courses-card img {
+    width: 100% !important;
   }
 }
