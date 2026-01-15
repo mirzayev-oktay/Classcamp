@@ -1,0 +1,53 @@
+.banner {
+  padding: 136px 0;
+  &-wrapper {
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+    background-color: #1d1b24;
+    padding: 66px;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+  }
+  h1 {
+    font-weight: 400;
+    font-size: 63px;
+    letter-spacing: 2.1px;
+    line-height: 70px;
+  }
+  p {
+    font-weight: 400;
+    font-size: 27px;
+    letter-spacing: 0.42px;
+    opacity: 0.7;
+  }
+  button {
+    background-color: #ff4343;
+    padding: 23px 30px;
+    text-align: center;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    font-style: 400px;
+    font-size: 23px;
+    color: #ffff;
+  }
+}
+@media (max-width: 770px) {
+  .banner-wrapper {
+    h1 {
+      font-size: 38px;
+      line-height: 53px;
+    }
+    p {
+      font-size: 22px;
+      line-height: 32px;
+    }
+    button {
+      font-size: 18px;
+      padding: 12px 32px;
+    }
+  }
+}
