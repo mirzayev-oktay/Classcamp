@@ -23,6 +23,7 @@
     }
     .courses-cards {
       display: flex;
+
       gap: 16px;
     }
     .courses-card {
@@ -57,7 +58,7 @@
     }
   }
 }
-@media (max-width: 960px) {
+@media (max-width: 1350px) {
   .courses {
     &-cards {
       flex-wrap: wrap;
